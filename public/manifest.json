@@ -1,0 +1,21 @@
+{
+  "name": "Slack scraper",
+  "description": "A chrome extension for scraping slack channel",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": "slack.png"
+  },
+  "permissions": ["activeTab", "downloads", "scripting"],
+  "host_permissions": ["https://app.slack.com/*"],
+  "background": {
+    "service_worker": "background.ts"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://app.slack.com/*"],
+      "ts": ["content.ts"]
+    }
+  ]
+}
