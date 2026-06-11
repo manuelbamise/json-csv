@@ -54,7 +54,7 @@ Output is written to `data.csv`.
 
 ## Tags
 
-`json-to-csv`, `data-extraction`, `slack`, `csv-export`, `typescript`, `nodejs`
+`json-to-csv`, `data-extraction`, `slack`, `typescript`, `nodejs`
 
 ## License
 
