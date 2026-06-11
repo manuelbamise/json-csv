@@ -1,12 +1,29 @@
 {
+  "name": "json-to-csv",
+  "version": "1.0.0",
+  "description": "Extract profile data from a JSON file and export it as a CSV file",
+  "keywords": [
+    "json-to-csv",
+    "data-extraction",
+    "csv-export",
+    "typescript",
+    "nodejs"
+  ],
+  "license": "MIT",
+  "author": "Bamise <bamise.dev@gmail.com>",
   "type": "module",
+  "main": "dist/index.js",
+  "engines": {
+    "node": ">=18"
+  },
   "scripts": {
-    "start": "npx tsx --watch src/index.ts"
+    "start": "tsx --watch src/index.ts",
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
   },
   "devDependencies": {
-    "@types/node": "^25.9.3",
-    "ts-node": "^10.9.2",
-    "typescript": "^6.0.3"
+    "typescript": "^6.0.3",
+    "@types/node": "^25.9.3"
   },
   "dependencies": {
     "tsx": "^4.22.4"

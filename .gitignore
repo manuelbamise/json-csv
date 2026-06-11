@@ -5,3 +5,6 @@
 /dist/*
 
 data.json
+
+*.csv
+*.csv#
