@@ -7,7 +7,7 @@
     "default_popup": "public/index.html",
     "default_icon": "public/slack.png"
   },
-  "permissions": ["activeTab", "downloads", "scripting"],
+  "permissions": ["activeTab", "downloads", "scripting", "nativeMessaging"],
   "host_permissions": ["https://app.slack.com/*"],
   "background": {
     "service_worker": "src/background.js"
