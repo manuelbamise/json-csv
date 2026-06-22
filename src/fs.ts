@@ -18,7 +18,6 @@ async function saveToCSV(data: outputData, filename: string) {
 
   const fileExists = fs.existsSync(filePath);
 
-  //headers.join(',') + '\n' + values.join(',')
 
   if (!fileExists) {
     const csvContent =

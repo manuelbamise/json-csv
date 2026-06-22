@@ -50,12 +50,10 @@ Output is written to `data.csv`.
 ## Built with
 
 - [TypeScript](https://www.typescriptlang.org/)
-- [tsx](https://github.com/privatenumber/tsx) — zero-config TypeScript runner
+- [tsx](https://github.com/privatenumber/tsx)
 
 ## Tags
 
 `json-to-csv`, `data-extraction`, `slack`, `typescript`, `nodejs`
 
-## License
 
-MIT
