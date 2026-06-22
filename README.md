@@ -6,6 +6,8 @@
 
 Extract specific profile fields from a JSON dump and export them as a formatted CSV file.
 
+Fix Typography
+
 ## Features
 
 - Reads a JSON file (`data.json`)
